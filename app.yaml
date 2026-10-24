@@ -1,0 +1,3 @@
+# Google App Engine (standard) - run `python generate_data.py && python predictor.py` before deploying
+runtime: python312
+entrypoint: gunicorn -b :$PORT app:app

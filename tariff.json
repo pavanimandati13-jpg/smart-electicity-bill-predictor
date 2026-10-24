@@ -1,0 +1,16 @@
+{
+  "_note": "SAMPLE slabs - edit to match your electricity board's current domestic tariff.",
+  "currency": "INR",
+  "fixed_charge": 50.0,
+  "tax_percent": 5.0,
+  "slabs": [
+    {"upto": 100, "rate": 0.0},
+    {"upto": 200, "rate": 2.5},
+    {"upto": 400, "rate": 4.5},
+    {"upto": 500, "rate": 6.0},
+    {"upto": 600, "rate": 8.0},
+    {"upto": 800, "rate": 9.0},
+    {"upto": 1000, "rate": 10.0},
+    {"upto": null, "rate": 11.0}
+  ]
+}
